@@ -3,8 +3,9 @@
         {
             "name": "Linux",
             "cStandard": "c11",
-            "intelliSenseMode": "gcc-x64",
-            "compileCommands": "${workspaceFolder}/compile_commands.json"
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "compilerPath": "/usr/bin/gcc"
         }
     ],
     "version": 4
