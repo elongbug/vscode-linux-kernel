@@ -2,7 +2,9 @@
     "files.exclude": {
         "**/.*.*.cmd": true,
         "**/.*.d": true,
-        "**/.*.S": true
+        "**/.*.S": true,
+        "**/cscope.out": true,
+        "**/tags": true
     },
     "[c]": {
         "editor.detectIndentation": false,
