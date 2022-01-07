@@ -4,7 +4,7 @@
             "name": "Linux",
             "cStandard": "c11",
             "intelliSenseMode": "linux-gcc-x64",
-            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
             "compilerPath": "/usr/bin/gcc"
         }
     ],

@@ -4,13 +4,15 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Generate compile_commands.json",
-            "type": "process",
-            "command": "python",
+            "label": "ninja build",
+            "type": "shell",
+            "command": "ninja",
             "args": [
-                "${workspaceRoot}/.vscode/generate_compdb.py"
+                "-C",
+                "${workspaceRoot}/build"
             ],
-            "problemMatcher": []
+            "problemMatcher": ["$gcc"],
+            "group": "build"
         }
     ]
 }
