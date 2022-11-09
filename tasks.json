@@ -8,7 +8,7 @@
             "type": "process",
             "command": "python",
             "args": [
-                "${workspaceRoot}/.vscode/generate_compdb.py"
+                "${workspaceRoot}/scripts/clang-tools/gen_compile_commands.py"
             ],
             "problemMatcher": []
         }
