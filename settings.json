@@ -50,5 +50,18 @@
         "hash_set": "c",
         "numbers": "c"
     },
+    //global variable color setting
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.declaration": { "bold": true },
+            "variable.global": {
+                "foreground": "#9932cc", // violet
+                //"foreground": "#800000", // maroon
+                //"fontStyle": "italic bold underline"
+                "fontStyle": "italic"
+            }
+        }
+    },
     "C_Cpp.errorSquiggles": "Disabled"
 }
