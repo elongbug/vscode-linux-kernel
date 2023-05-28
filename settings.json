@@ -10,7 +10,8 @@
         "editor.detectIndentation": false,
         "editor.tabSize": 8,
         "editor.insertSpaces": false,
-        "editor.rulers": [80]
+        "editor.rulers": [80],
+        "editor.links": false
     },
     "files.associations": {
         "*.h": "c",
@@ -48,17 +49,47 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "hash_set": "c",
-        "numbers": "c"
+        "numbers": "c",
+        "memory_resource": "c",
+        "__node_handle": "c",
+        "bit": "c",
+        "__bit_reference": "c",
+        "__functional_base": "c",
+        "algorithm": "c",
+        "deque": "c",
+        "__memory": "c",
+        "filesystem": "c",
+        "iterator": "c",
+        "locale": "c",
+        "vector": "c",
+        "__functional_base_03": "c",
+        "__hash_table": "c",
+        "__tree": "c",
+        "__tuple": "c",
+        "forward_list": "c",
+        "iosfwd": "c",
+        "streambuf": "c",
+        "__locale": "c",
+        "queue": "c",
+        "stack": "c",
+        "mutex": "c",
+        "__mutex_base": "c"
     },
     //global variable color setting
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
         "rules": {
-            "*.declaration": { "bold": true },
+            //"*.declaration": { "bold": true },
+            // MS cpptools lsp
             "variable.global": {
                 "foreground": "#9932cc", // violet
                 //"foreground": "#800000", // maroon
                 //"fontStyle": "italic bold underline"
+                "fontStyle": "italic"
+            }
+            // clangd lsp
+            "variable.globalScope": {
+                "foreground": "#9932cc", // violet
                 "fontStyle": "italic"
             }
         }
