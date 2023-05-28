@@ -1,0 +1,19 @@
+CompileFlags:
+  Add:
+    - "-enable-trivial-auto-var-init-zero-knowing-it-will-be-removed-from-clang"
+  Remove:
+    - "-mabi=lp64"
+    - "-fconserve-stack"
+    - "-fno-allow-store-data-races"
+    - "-mpreferred-stack-boundary=3"
+    - "-mindirect-branch=thunk-extern"
+    - "-mindirect-branch-register"
+    - "-mindirect-branch-cs-prefix"
+    - "-mrecord-mcount"
+
+InlayHints:
+  Enabled: No
+
+Diagnostics:
+  ClangTidy:
+    Remove: bugprone-sizeof-expression
