@@ -85,13 +85,17 @@
                 "foreground": "#9932cc", // violet
                 //"foreground": "#800000", // maroon
                 //"fontStyle": "italic bold underline"
-                "fontStyle": "italic"
-            }
+                "fontStyle": "italic",
+            },
             // clangd lsp
             "variable.globalScope": {
                 "foreground": "#9932cc", // violet
-                "fontStyle": "italic"
-            }
+                "fontStyle": "italic",
+            },
+            // rust-analyzer lsp
+            //"*.mutable": {
+            //    "fontStyle": "",
+            //},
         }
     },
     "C_Cpp.errorSquiggles": "Disabled"
