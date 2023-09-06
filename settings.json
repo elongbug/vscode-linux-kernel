@@ -2,9 +2,12 @@
     "files.exclude": {
         "**/.*.*.cmd": true,
         "**/.*.d": true,
-        "**/.*.S": true,
         "**/cscope.out": true,
-        "**/tags": true
+        "**/tags": true,
+        "**/*.hdrtest": true,
+        "**/*.o": true,
+        "**/*.ko": true,
+        "install/*": true
     },
     "[c]": {
         "editor.detectIndentation": false,
