@@ -16,6 +16,10 @@
         "editor.rulers": [80],
         "editor.links": false
     },
+    "[rust]": {
+        "editor.tabSize": 4
+    },
+
     "files.associations": {
         "*.h": "c",
         "array": "c",
