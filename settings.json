@@ -94,5 +94,10 @@
             }
         }
     },
+    //rust-analyzer setting with rust-project.json
+    "rust-analyzer.linkedProjects": [
+             "${workspaceFolder}/build/rust-project.json",
+    ],
+    "editor.stickyScroll.enabled": false,
     "C_Cpp.errorSquiggles": "Disabled"
 }
