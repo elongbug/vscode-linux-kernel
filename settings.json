@@ -94,6 +94,10 @@
             }
         }
     },
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#4B4B4B",  // non-active line number color
+        "editorLineNumber.activeForeground": "#BFBFBF"  // active line number color
+    },
     //rust-analyzer setting with rust-project.json
     "rust-analyzer.linkedProjects": [
              "${workspaceFolder}/build/rust-project.json",
