@@ -80,7 +80,9 @@
         "queue": "c",
         "stack": "c",
         "mutex": "c",
-        "__mutex_base": "c"
+        "__mutex_base": "c",
+        "*.rsi": "rust"
+
     },
     //global variable color setting
     "editor.semanticTokenColorCustomizations": {
@@ -109,5 +111,14 @@
         "editorLineNumber.foreground": "#4B4B4B",  // non-active line number color
         "editorLineNumber.activeForeground": "#BFBFBF"  // active line number color
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    // rust-analyzer lsp
+    "rust-analyzer.linkedProjects": [
+        "./rust-project.json"
+    ],
+    "rust-analyzer.cargo.autoreload": false,
+    "rust-analyzer.checkOnSave": false,
+    "rust-analyzer.procMacro.enable": true,
+    "rust-analyzer.cargo.buildScripts.enable": false,
+    "editor.formatOnSave": false
 }
